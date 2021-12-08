@@ -1,0 +1,13 @@
+jupytext
+plotly==5.4.0
+jupyter
+notebook
+pandas==1.0.3
+scipy
+numpy
+requests
+networkx
+sklearn
+scikit-learn
+wget
+jupyterlab-link-share
