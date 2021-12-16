@@ -22,3 +22,4 @@ wget
 matplotlib
 sklearn
 jupyterlab-link-share
+jupyterlab-lsp
