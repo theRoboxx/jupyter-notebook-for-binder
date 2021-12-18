@@ -1,3 +1,4 @@
+jupyterlab >=3.1
 jupytext
 plotly==5.4.0
 jupyter
