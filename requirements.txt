@@ -1,5 +1,9 @@
 ipykernel>=6
 jupyterlab==3.2.5
 jupyterlab-link-share
-xeus-python
 numpy
+jupyterlab-lsp
+requests
+networkx
+matplotlib
+plotly
