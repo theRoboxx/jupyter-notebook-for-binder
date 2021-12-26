@@ -1,0 +1,27 @@
+{
+  "extends": "../tsconfigbase",
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src",
+    "types": ["jest"],
+    "tsBuildInfoFile": "lib/.tsbuildinfo"
+  },
+  "include": ["src/**/*"],
+  "references": [
+    {
+      "path": "../code-jumpers"
+    },
+    {
+      "path": "../completion-theme"
+    },
+    {
+      "path": "../theme-vscode"
+    },
+    {
+      "path": "../theme-material"
+    },
+    {
+      "path": "../lsp-ws-connection"
+    }
+  ]
+}
