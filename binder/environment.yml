@@ -1,0 +1,42 @@
+name: jupyterlab-lsp
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  # runtime dependencies
+  - python >=3.7,<3.11.0a0
+  - jupyterlab >=3.0.0,<4.0.0a0
+  - jupyter_server >=1.1.2
+  - retrolab >=0.3.0,<0.4
+  # build dependencies
+  - nodejs >=12,!=13,!=15,<17
+  # for python language server (and development)
+  - flake8 >=3.5
+  - pip
+  - pylint
+  # pyls-black was not migrated to pylsp yet
+  # - pyls-black
+  # pyls-isort already migrated to pylsp but there is no point enabling
+  # it right now as we do not support actions support yet (PRs welcome)
+  # - pyls-isort
+  - pylsp-mypy
+  - python-lsp-server
+  - ruamel_yaml
+  # for R language server and kernel
+  - r
+  - r-irkernel
+  - r-languageserver
+  - rpy2
+  # for tex
+  - tectonic
+  - texlab
+  - chktex
+  # for ML notebooks
+  - jupyter-link-share
+  - numpy
+  - requests
+  - networkx
+  - mathplotlib
+  - plotly
