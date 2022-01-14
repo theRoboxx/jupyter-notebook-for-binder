@@ -1,10 +1,10 @@
-### Gesis:
+### Gesis(updated):
 
-[![Binder](https://notebooks.gesis.org/binder/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/theRoboxx/jupyter-notebook-for-binder/HEAD)
+[![Binder](https://notebooks.gesis.org/binder/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/theRoboxx/jupyter-notebook-for-binder/main?urlpath=lab)
 
-### Mybinder:
+### Mybinder(updated):
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/theRoboxx/jupyter-notebook-for-binder/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/theRoboxx/jupyter-notebook-for-binder/main?urlpath=lab)
 
 # jupyter-notebook-for-binder
 

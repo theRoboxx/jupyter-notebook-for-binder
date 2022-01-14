@@ -1,4 +1,4 @@
-name: jupyterlab-lsp
+name: jupyterlab-lsp-python
 
 channels:
   - conda-forge
@@ -6,13 +6,13 @@ channels:
 
 dependencies:
   # runtime dependencies
-  - python >=3.7,<3.11.0a0
+  - python >=3.6,<3.9.0a0
   - jupyterlab >=3.0.0,<4.0.0a0
   - jupyter_server >=1.1.2
-  - retrolab >=0.3.0,<0.4
-  # build dependencies
-  - nodejs >=12,!=13,!=15,<17
-  # for python language server (and development)
+  - retrolab >=0.2.0,<0.3
+  - jupyterlab-lsp
+  # for python language server
+  - python-lsp-server
   - flake8 >=3.5
   - pip
   - pylint
@@ -22,17 +22,6 @@ dependencies:
   # it right now as we do not support actions support yet (PRs welcome)
   # - pyls-isort
   - pylsp-mypy
-  - python-lsp-server
-  - ruamel_yaml
-  # for R language server and kernel
-  - r
-  - r-irkernel
-  - r-languageserver
-  - rpy2
-  # for tex
-  - tectonic
-  - texlab
-  - chktex
   # for ML notebooks
   - jupyter-link-share
   - numpy
